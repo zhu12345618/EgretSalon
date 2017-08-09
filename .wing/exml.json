@@ -1,0 +1,209 @@
+{
+  "global": {
+    "globalBindingDataTestObj": [],
+    "globalBackgroundAlpha": 100,
+    "globalBackgroundX": 0,
+    "globalBackgroundY": 0,
+    "globalBackgroundWidth": -1,
+    "globalBackgroundHeight": -1,
+    "globalBackgroundColor": "",
+    "globalBackgroundImage": "",
+    "globalRulerEnable": true
+  },
+  "156fe57d815": {
+    "bindingDataTestObj": [],
+    "backgroundType": "user",
+    "backgroundColor": "#000000",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "156fe5a1939": {
+    "backgroundType": "user"
+  },
+  "156fe5a193a": {
+    "backgroundType": "user",
+    "useBgImage": false,
+    "useBgColor": true,
+    "backgroundColor": "#000000",
+    "guideLinesEnabled": false
+  },
+  "156fe993e82": {
+    "backgroundType": "null",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "156ff089cc7": {
+    "backgroundType": "user",
+    "backgroundColor": "#FFFFFF",
+    "backgroundAlpha": 0,
+    "zoomValue": 25
+  },
+  "15702bb3968": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": false,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "backgroundType": "user",
+    "backgroundColor": "#000000",
+    "bindingDataTestObj": [],
+    "zoomValue": 66
+  },
+  "157bcea43b1": {
+    "backgroundType": "user",
+    "useBgImage": false,
+    "useBgColor": true,
+    "backgroundColor": "#FDFAFA",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "backgroundAlpha": 100,
+    "zoomValue": 25
+  },
+  "157d13ea0dc": {
+    "backgroundType": "user",
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundColor": "#000000",
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": 480,
+    "backgroundHeight": 126,
+    "backgroundAlpha": 100,
+    "backgroundImage": "/Users/flyanger/h5/Game/resource/RouletteGame/betScene/button/confirm.png"
+  },
+  "confirmBtn": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": false,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "backgroundType": "user",
+    "backgroundColor": "#000000"
+  },
+  "157d1632dfc": {
+    "zoomValue": 33
+  },
+  "157d2168023": {
+    "zoomValue": 33
+  },
+  "157d6d94fd4": {
+    "zoomValue": 12
+  },
+  "157daeafc6e": {
+    "zoomValue": 25,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100
+  },
+  "157dafdfa78": {
+    "zoomValue": 25
+  },
+  "157db0f98ce": {
+    "zoomValue": 25
+  },
+  "157ea5957d2": {
+    "zoomValue": 33
+  },
+  "157eba2d176": {
+    "zoomValue": 12
+  },
+  "157ffa9cc7c": {
+    "zoomValue": 33
+  },
+  "157ffb54f4e": {
+    "zoomValue": 33
+  },
+  "157ffb6918d": {
+    "zoomValue": 33
+  },
+  "157ffc1fc00": {
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "useBgImage": true,
+    "useBgColor": true,
+    "backgroundAlpha": 100,
+    "zoomValue": 33
+  },
+  "157ffc30fd2": {
+    "zoomValue": 33
+  },
+  "157ffd7ddeb": {
+    "zoomValue": 33
+  },
+  "157ffd9493d": {
+    "zoomValue": 33
+  },
+  "157ffdfe0f7": {
+    "zoomValue": 33
+  },
+  "157ffed6f3b": {
+    "zoomValue": 33
+  },
+  "15803e5e38a": {
+    "zoomValue": 25
+  },
+  "15803e650cb": {
+    "zoomValue": 25
+  },
+  "15803e759aa": {
+    "zoomValue": 33
+  },
+  "15803e7f03c": {
+    "zoomValue": 33
+  },
+  "15803e86e6e": {
+    "zoomValue": 33
+  },
+  "15803ea2926": {
+    "zoomValue": 100
+  },
+  "15803f0231a": {
+    "zoomValue": 33
+  },
+  "15bf54d5a05": {
+    "backgroundType": "user",
+    "backgroundColor": "#000000",
+    "backgroundAlpha": 100
+  },
+  "15bf54e5a1a": {
+    "backgroundType": "user",
+    "backgroundColor": "#000000",
+    "backgroundAlpha": 100
+  },
+  "15c3d5cf712": {
+    "backgroundType": "user",
+    "useBgImage": true,
+    "useBgColor": false,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "backgroundAlpha": 100
+  },
+  "15c6271f1bd": {
+    "backgroundType": "null",
+    "backgroundAlpha": 100
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "useClip": false,
+    "maxImageWidth": 1024,
+    "maxImageHeight": 1024,
+    "defaultResPath": "/Users/zhufu/h5/Game/resource/default.res.json",
+    "packGroups": {
+        "preload": false
+    }
+}

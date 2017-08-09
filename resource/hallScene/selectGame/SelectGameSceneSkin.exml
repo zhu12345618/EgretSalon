@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectGameSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui">
+    <e:Button id="baccaratEnterBtn" x="100" verticalCenter="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="baccaratEnterBtn_png" width="100%" height="100%" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+
+    <e:Button id="dtEnterBtn" x="280" verticalCenter="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="dtEnterBtn_png" width="100%" height="100%" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+
+    <e:Button id="sicboEnterBtn" x="460" verticalCenter="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="sicboEnterBtn_png" width="100%" height="100%" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+
+    <e:Button id="rouletteEnterBtn" x="650" verticalCenter="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="rouletteEnterBtn_png" width="100%" height="100%" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+
+    <e:Button id="fantanEnterBtn" x="850" verticalCenter="0">
+        <e:skinName>
+            <e:Skin states="up,down,disabled">
+                <e:Image source="fantanEnterBtn_png" width="100%" height="100%" />
+            </e:Skin>
+        </e:skinName>
+    </e:Button>
+</e:Skin>

@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>东方娱乐城</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+	<script egret="lib" src="libs/mouse/mouse.min.js" src-release="libs/mouse/mouse.min.js"></script>
+	<script egret="lib" src="libs/md5/md5.min.js" src-release="libs/md5/md5.min.js"></script>
+	
+	<script egret="lib" src="libs/liveVideo/liveVideo.js" src-release="libs/liveVideo/liveVideo.js"></script>
+	<script egret="lib" src="libs/log/log.js" src-release="libs/log/log.js"></script>
+
+	<script egret="lib" src="libs/protobuf/protobuf.js" src-release="libs/protobuf/protobuf.min.js"></script>
+	<script egret="lib" src="libs/protobuf/proto.js" src-release="libs/protobuf/proto.js"></script>
+
+	<script egret="lib" src="libs/global/global.js" src-release="libs/global/global.js"></script>
+
+	<script egret="lib" src="libs/global/cookies.js" src-release="libs/global/cookies.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/common/game/Game.js"></script>
+	<script egret="game" src="bin-debug/utils/Button.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratBet.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratGame.js"></script>
+	<script egret="game" src="bin-debug/Road/GridScene.js"></script>
+	<script egret="game" src="bin-debug/Road/SmallRoad.js"></script>
+	<script egret="game" src="bin-debug/utils/RadioButton.js"></script>
+	<script egret="game" src="bin-debug/language/OneLang.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratRoad.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratRooms.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratTableList.js"></script>
+	<script egret="game" src="bin-debug/baccarat/ChipButton.js"></script>
+	<script egret="game" src="bin-debug/baccarat/PokerLayer.js"></script>
+	<script egret="game" src="bin-debug/baccarat/union/UnionBaccarat.js"></script>
+	<script egret="game" src="bin-debug/baccarat/union/UnionBaccaratList.js"></script>
+	<script egret="game" src="bin-debug/common/game/CountDownTimer.js"></script>
+	<script egret="game" src="bin-debug/alertView/AlertView.js"></script>
+	<script egret="game" src="bin-debug/common/game/Top.js"></script>
+	<script egret="game" src="bin-debug/common/GameStateInfo.js"></script>
+	<script egret="game" src="bin-debug/common/hallInfo/HallTableInfo.js"></script>
+	<script egret="game" src="bin-debug/common/hallInfo/HallUserInfo.js"></script>
+	<script egret="game" src="bin-debug/common/hallInfo/LiveVideoInfo.js"></script>
+	<script egret="game" src="bin-debug/common/hallInfo/OnlineInfo.js"></script>
+	<script egret="game" src="bin-debug/common/hallInfo/UserInfo.js"></script>
+	<script egret="game" src="bin-debug/common/UIManager.js"></script>
+	<script egret="game" src="bin-debug/common/UserGameInfo.js"></script>
+	<script egret="game" src="bin-debug/config/GameConfig.js"></script>
+	<script egret="game" src="bin-debug/event/EventDispatcher.js"></script>
+	<script egret="game" src="bin-debug/event/Events.js"></script>
+	<script egret="game" src="bin-debug/gameDataManager/GameServerManager.js"></script>
+	<script egret="game" src="bin-debug/gameDataManager/HallTableInfoManager.js"></script>
+	<script egret="game" src="bin-debug/hallScene/HallScene.js"></script>
+	<script egret="game" src="bin-debug/hallScene/selectGame/SelectGameScene.js"></script>
+	<script egret="game" src="bin-debug/language/DropDownList.js"></script>
+	<script egret="game" src="bin-debug/language/Lang.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/login/LoginData.js"></script>
+	<script egret="game" src="bin-debug/login/LoginScene.js"></script>
+	<script egret="game" src="bin-debug/longHu/LongHuBet.js"></script>
+	<script egret="game" src="bin-debug/longHu/LongHuGame.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/model/GameTableHistory.js"></script>
+	<script egret="game" src="bin-debug/protobuf/ProtobufData.js"></script>
+	<script egret="game" src="bin-debug/protobuf/ProtobufManager.js"></script>
+	<script egret="game" src="bin-debug/Road/BigRoad.js"></script>
+	<script egret="game" src="bin-debug/Road/BigRoadScene.js"></script>
+	<script egret="game" src="bin-debug/Road/CircleView.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratBetBtn.js"></script>
+	<script egret="game" src="bin-debug/Road/JyRoadScene.js"></script>
+	<script egret="game" src="bin-debug/Road/MarkRoad.js"></script>
+	<script egret="game" src="bin-debug/Road/MarkRoadScene.js"></script>
+	<script egret="game" src="bin-debug/Road/OneRoadMap.js"></script>
+	<script egret="game" src="bin-debug/Road/RoadScene.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratBottom.js"></script>
+	<script egret="game" src="bin-debug/Road/SmallRoadScene.js"></script>
+	<script egret="game" src="bin-debug/Road/ZlRoadScene.js"></script>
+	<script egret="game" src="bin-debug/set/SetButton.js"></script>
+	<script egret="game" src="bin-debug/set/SetScene.js"></script>
+	<script egret="game" src="bin-debug/socket/Socket.js"></script>
+	<script egret="game" src="bin-debug/socket/SocketInterface.js"></script>
+	<script egret="game" src="bin-debug/socket/SocketUtils.js"></script>
+	<script egret="game" src="bin-debug/sound/SoundEffectMgr.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratAskRoadLayer.js"></script>
+	<script egret="game" src="bin-debug/utils/Enum.js"></script>
+	<script egret="game" src="bin-debug/baccarat/BaccaratLimitInfoLayer.js"></script>
+	<script egret="game" src="bin-debug/utils/Utils.js"></script>
+	<script egret="game" src="bin-debug/zorderManager/AlertZorderManager.js"></script>
+	<script egret="game" src="bin-debug/zorderManager/ViewZorderManager.js"></script>
+	<script egret="game" src="bin-debug/zorderManager/WaitingDataZorderManager.js"></script>
+	<!--game_files_end-->
+</head>
+
+<script>
+	/**
+	 * window.onresize 事件 专用事件绑定器 v0.1 Alucelx
+	 * http://www.cnblogs.com/Alucelx/archive/2011/10/20/2219263.html
+	 * <description>
+	 *   用于解决 lte ie8 & chrome 及其他可能会出现的 原生 window.resize 事件多次执行的 BUG.
+	 * </description>
+	 * <methods>
+	 *   add: 添加事件句柄
+	 *   remove: 删除事件句柄
+	 * </methods>
+	 */
+	var onWindowResize = function(){
+		//事件队列
+		var queue = [],
+
+				indexOf = Array.prototype.indexOf || function(){
+							var i = 0, length = this.length;
+							for( ; i < length; i++ ){
+								if(this[i] === arguments[0]){
+									return i;
+								}
+							}
+
+							return -1;
+						};
+
+		var isResizing = {}, //标记可视区域尺寸状态， 用于消除 lte ie8 / chrome 中 window.onresize 事件多次执行的 bug
+				lazy = true, //懒执行标记
+
+				listener = function(e){ //事件监听器
+					var h = window.innerHeight || (document.documentElement && document.documentElement.clientHeight) || document.body.clientHeight,
+							w = window.innerWidth || (document.documentElement && document.documentElement.clientWidth) || document.body.clientWidth;
+
+					if( h === isResizing.h && w === isResizing.w){
+						return;
+
+					}else{
+						e = e || window.event;
+
+						var i = 0, len = queue.length;
+						for( ; i < len; i++){
+							queue[i].call(this, e);
+						}
+
+						isResizing.h = h,
+								isResizing.w = w;
+					}
+				}
+
+		return {
+			add: function(fn){
+				if(typeof fn === 'function'){
+					if(lazy){ //懒执行
+						if(window.addEventListener){
+							window.addEventListener('resize', listener, false);
+						}else{
+							window.attachEvent('onresize', listener);
+						}
+
+						lazy = false;
+					}
+
+					queue.push(fn);
+				}else{  }
+
+				return this;
+			},
+			remove: function(fn){
+				if(typeof fn === 'undefined'){
+					queue = [];
+				}else if(typeof fn === 'function'){
+					var i = indexOf.call(queue, fn);
+
+					if(i > -1){
+						queue.splice(i, 1);
+					}
+				}
+
+				return this;
+			}
+		};
+	}.call(this);
+
+	window.onload = function() {
+		var gameDiv = document.getElementById("gameDiv");
+		function browserRedirect() {
+			var sUserAgent = navigator.userAgent.toLowerCase();
+			var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+			var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+			var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+			var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+			var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+			var bIsAndroid = sUserAgent.match(/android/i) == "android";
+			var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+			var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+			if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+				gameDiv.style.top = "1px";
+				console.log("phone");
+			} else {
+				console.log("pc");
+			}
+		}
+		browserRedirect();
+
+
+		function onResizeEvent() {
+			gameDiv.style.width = window.innerWidth+"px";
+			gameDiv.style.height = window.innerHeight+"px";
+		}
+		onResizeEvent();
+		onWindowResize.add(onResizeEvent);
+		window.onscroll = function() {
+			window.scrollTo(0, 0);
+		}
+	}
+	
+	
+</script>
+
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+		 id="gameDiv"
+         data-entry-class="Main"
+         data-orientation="landscape"
+         data-scale-mode="showAll"
+         data-frame-rate="30"
+         data-content-width="1136"
+         data-content-height="640"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+		  
+    </div>
+
+	
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * }
+         **/
+        egret.runEgret({renderMode:"webgl", audioType:0});
+    </script>
+</body>
+</html>

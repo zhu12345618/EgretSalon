@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BaccaratBetSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="videoFristImg_png"/>
+	<e:Group id="betGroup" width="1136" height="89" x="0" y="506" >
+		<e:Button id="playerPairBtn" label="Player Pair" x="50" y="29" width="170"  height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="25"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="playerBtn" label="PLAYER" x="220" y="29" width="170"  height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="tieBtn" label="TIE" x="390" y="29" width="170"  height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="bankerBtn" label="BANKER" x="560" y="29" width="170"  height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="bankerPairBtn" label="Banker Pair" x="730" y="29" width="170" height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" size="25"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+		<e:Button id="rebetBtn" label="REBET" x="920" y="29" width="170"  height="89">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image source="betArea_png" width="100%" height="100%"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

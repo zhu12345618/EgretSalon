@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OneRoadMapSkin" width="1116" height="245" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group id="group_road" width="1116" height="209" x="0" y="36" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Rect width="100%" height="100%" fillColor="0xffffff"/>
+		<e:Label id="text_beadRoad" text="珠盘路" x="179" y="165" textAlign="right" anchorOffsetX="0" width="222" textColor="0xE0E0E0" size="25" alpha="0.8"/>
+		<e:Label id="text_bigRoad" text="大路" x="809" y="68" textColor="0xE0E0E0" scaleX="1" scaleY="1" anchorOffsetX="0" width="263" textAlign="right" size="25"/>
+		<e:Label id="text_bigEyeRoad" text="大眼仔" x="802" y="115" scaleX="1" scaleY="1" anchorOffsetX="0" width="273" textAlign="right" textColor="0xE0E0E0" size="25"/>
+		<e:Label id="text_cockroachRoad" text="曱甴" x="815" y="165" textColor="0xE0E0E0" scaleX="1" scaleY="1" anchorOffsetX="0" width="259" textAlign="right" size="25"/>
+		<e:Label id="text_smallRoad" text="小路" x="536" y="165" textColor="0xE0E0E0" scaleX="1" scaleY="1" textAlign="right" anchorOffsetX="0" width="200" size="25"/>
+	</e:Group>
+</e:Skin>

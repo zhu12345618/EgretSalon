@@ -1,0 +1,923 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,serverInfo_json,preloadFill_png,logo_png,Lang_json,blackBackground_png,videoFristImg_png,loading_png,soundsOn_png,soundsOff_png,askRoadBankerBg_png,askRoadPlayerBg_png",
+			"name": "preload"
+		},
+		{
+			"keys": "loginBox_png,loginBtn_down_png,loginBtn_png,loginHead_png",
+			"name": "loginScene"
+		},
+		{
+			"keys": "betArea_png,baccaratResult_json,longhuResult_json,unionBaccaratBanker_png,unionBaccaratBankerP_png,unionBaccaratPlayer_png,unionBaccaratPlayerP_png,unionBaccaratTie_png,unionBaccaratRightSideBar_png,unionBaccaratRightSideBlueCir1_png,unionBaccaratRightSideBlueCir2_png,unionBaccaratRightSideRedLine_png,unionBaccaratRightSideBlueLine_png,unionBaccaratRightSidePlayer_png,unionBaccaratRightSideRedCir1_png,unionBaccaratRightSideRedCir2_png,unionBaccaratRightSideBanker_png,tableListBg_png,topRoom_png,topVideoRefresh_png,topTips_png,topBalance_png,topInfo_png,topExit_png,topSet_png,topSwitchVideo_png,topUserName_png,baccaratHallRoadBg_png,timerBg_png,chip1_png,chip2_png,chip3_png,chip4_png,chip5_png,chip6_png,chip7_png,chip8_png,chip9_png,chip10_png,betBtnBg_png,baccaratBottomBg_png,chipArrow_png,roomNormalBg_png,roomPressBg_png,unionChip1_png,unionChip2_png,unionChip3_png,unionChip4_png,unionChip5_png,unionBaccaratBottom_png,unionBaccaratHead_png,unionBaccaratBottomLine_png,unionExitBtn_png,unionSetBtn_png,unionUserInfoBg_png,cancelBtn_png,comfirmBtn_png,rebetBtn_png,,chipAddPressed_png,topInfoPressed_png,topSetPressed_png,topSwitchVideoPressed_png,topTipsPressed_png,topVideoRefreshPressed_png,betInfo1_png,betInfo2_png,betInfo3_png,betInfo4_png,betInfo5_png,betInfo6_png,unionChipSet_png,hallBg_png,backBtn_png,baccaratEnterBtn_png,dtEnterBtn_png,fantanEnterBtn_png,rouletteEnterBtn_png,sicboEnterBtn_png,card_1_1_png,card_1_2_png,card_1_3_png,card_1_4_png,card_1_5_png,card_1_6_png,card_1_7_png,card_1_8_png,card_1_9_png,card_1_10_png,card_1_11_png,card_1_12_png,card_1_13_png,card_2_1_png,card_2_2_png,card_2_3_png,card_2_4_png,card_2_5_png,card_2_6_png,card_2_7_png,card_2_8_png,card_2_9_png,card_2_10_png,card_2_11_png,card_2_12_png,card_2_13_png,card_3_1_png,card_3_2_png,card_3_3_png,card_3_4_png,card_3_5_png,card_3_6_png,card_3_7_png,card_3_8_png,card_3_9_png,card_3_10_png,card_3_11_png,card_3_12_png,card_3_13_png,card_4_1_png,card_4_2_png,card_4_3_png,card_4_4_png,card_4_5_png,card_4_6_png,card_4_7_png,card_4_8_png,card_4_9_png,card_4_10_png,card_4_11_png,card_4_12_png,card_4_13_png,card_bg_png,Bead_A_png,Bead_B_png,Bead_C_png,Bead_D_png,Bead_E_png,Bead_F_png,Bead_G_png,Bead_H_png,Bead_I_png,Bead_J_png,Bead_K_png,Bead_L_png,BigRoad_A_png,BigRoad_B_png,BigRoad_C_png,BigRoad_D_png,BigRoad_E_png,BigRoad_F_png,BigRoad_G_png,BigRoad_H_png,Cockcroach_A_png,Cockcroach_E_png",
+			"name": "hallScene"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "sound/Countdown.mp3",
+			"type": "sound",
+			"name": "Countdown_mp3"
+		},
+		{
+			"url": "sound/Betting_Start.mp3",
+			"type": "sound",
+			"name": "Betting_Start_mp3"
+		},
+		{
+			"url": "sound/Betting_Stopped.mp3",
+			"type": "sound",
+			"name": "Betting_Stopped_mp3"
+		},
+		{
+			"url": "sound/Click_Chips.mp3",
+			"type": "sound",
+			"name": "Click_Chips_mp3"
+		},
+		{
+			"url": "sound/Display_Result.mp3",
+			"type": "sound",
+			"name": "Display_Result_mp3"
+		},
+		{
+			"url": "sound/Click_Bet_Group.mp3",
+			"type": "sound",
+			"name": "Click_Bet_Group_mp3"
+		},
+		{
+			"url": "sound/Hover_Bet_Group.mp3",
+			"type": "sound",
+			"name": "Hover_Bet_Group_mp3"
+		},
+		{
+			"url": "server/serverInfo.json",
+			"type": "json",
+			"name": "serverInfo_json"
+		},
+		{
+			"url": "Lang.json",
+			"type": "json",
+			"name": "Lang_json"
+		},
+		{
+			"url": "loadingScene/preloadBg.png",
+			"type": "image",
+			"name": "preloadBg_png"
+		},
+		{
+			"url": "loadingScene/preloadFill.png",
+			"type": "image",
+			"name": "preloadFill_png"
+		},
+		{
+			"url": "common/loading/loading.png",
+			"type": "image",
+			"name": "loading_png"
+		},
+		{
+			"url": "common/top/logo.png",
+			"type": "image",
+			"name": "logo_png"
+		},
+		{
+			"url": "common/background/blackBackground.png",
+			"type": "image",
+			"name": "blackBackground_png"
+		},
+		{
+			"url": "common/top/topBg.png",
+			"type": "image",
+			"name": "topBg_png"
+		},
+		{
+			"url": "common/top/top_info.png",
+			"type": "image",
+			"name": "top_info_png"
+		},
+		{
+			"url": "common/top/top_room.png",
+			"type": "image",
+			"name": "top_room_png"
+		},
+		{
+			"url": "common/top/top_switchVideo.png",
+			"type": "image",
+			"name": "top_switchVideo_png"
+		},
+		{
+			"url": "baccarat/betArea.png",
+			"type": "image",
+			"name": "betArea_png"
+		},
+		{
+			"url": "json/baccaratResult.json",
+			"type": "json",
+			"name": "baccaratResult_json"
+		},
+		{
+			"name": "longhuResult_json",
+			"type": "json",
+			"url": "json/longhuResult.json"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratBanker.png",
+			"type": "image",
+			"name": "unionBaccaratBanker_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratBankerP.png",
+			"type": "image",
+			"name": "unionBaccaratBankerP_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratPlayer.png",
+			"type": "image",
+			"name": "unionBaccaratPlayer_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratPlayerP.png",
+			"type": "image",
+			"name": "unionBaccaratPlayerP_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratTie.png",
+			"type": "image",
+			"name": "unionBaccaratTie_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideBar.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideBar_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideBlueCir1.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideBlueCir1_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideBlueCir2.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideBlueCir2_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideRedLine.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideRedLine_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSidePlayer.png",
+			"type": "image",
+			"name": "unionBaccaratRightSidePlayer_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideRedCir1.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideRedCir1_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideRedCir2.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideRedCir2_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideBlueLine.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideBlueLine_png"
+		},
+		{
+			"url": "baccarat/unionBaccarat/unionBaccaratRightSideBanker.png",
+			"type": "image",
+			"name": "unionBaccaratRightSideBanker_png"
+		},
+		{
+			"url": "loginScene/loginHead.png",
+			"type": "image",
+			"name": "loginHead_png"
+		},
+		{
+			"url": "loginScene/loginBtn.png",
+			"type": "image",
+			"name": "loginBtn_png"
+		},
+		{
+			"url": "loginScene/loginBtn_down.png",
+			"type": "image",
+			"name": "loginBtn_down_png"
+		},
+		{
+			"url": "loginScene/loginBox.png",
+			"type": "image",
+			"name": "loginBox_png"
+		},
+		{
+			"url": "baccarat/tableListBg.png",
+			"type": "image",
+			"name": "tableListBg_png"
+		},
+		{
+			"url": "common/top/topRoom.png",
+			"type": "image",
+			"name": "topRoom_png"
+		},
+		{
+			"url": "common/top/topVideoRefresh.png",
+			"type": "image",
+			"name": "topVideoRefresh_png"
+		},
+		{
+			"url": "common/top/topTips.png",
+			"type": "image",
+			"name": "topTips_png"
+		},
+		{
+			"url": "common/top/topBalance.png",
+			"type": "image",
+			"name": "topBalance_png"
+		},
+		{
+			"url": "common/top/topInfo.png",
+			"type": "image",
+			"name": "topInfo_png"
+		},
+		{
+			"url": "common/top/topExit.png",
+			"type": "image",
+			"name": "topExit_png"
+		},
+		{
+			"url": "common/top/topSet.png",
+			"type": "image",
+			"name": "topSet_png"
+		},
+		{
+			"url": "common/top/topSwitchVideo.png",
+			"type": "image",
+			"name": "topSwitchVideo_png"
+		},
+		{
+			"url": "common/top/topUserName.png",
+			"type": "image",
+			"name": "topUserName_png"
+		},
+		{
+			"name": "baccaratHallRoadBg_png",
+			"type": "image",
+			"url": "baccarat/baccaratHallRoadBg.png"
+		},
+		{
+			"name": "timerBg_png",
+			"type": "image",
+			"url": "baccarat/timerBg.png"
+		},
+		{
+			"name": "chip1_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip1.png"
+		},
+		{
+			"name": "chip2_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip2.png"
+		},
+		{
+			"name": "chip3_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip3.png"
+		},
+		{
+			"name": "chip4_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip4.png"
+		},
+		{
+			"name": "chip5_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip5.png"
+		},
+		{
+			"name": "chip6_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip6.png"
+		},
+		{
+			"name": "chip7_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip7.png"
+		},
+		{
+			"name": "chip8_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip8.png"
+		},
+		{
+			"name": "chip9_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip9.png"
+		},
+		{
+			"name": "chip10_png",
+			"type": "image",
+			"url": "baccarat/betChip/chip10.png"
+		},
+		{
+			"name": "betBtnBg_png",
+			"type": "image",
+			"url": "baccarat/betBtnBg.png"
+		},
+		{
+			"name": "baccaratBottomBg_png",
+			"type": "image",
+			"url": "baccarat/baccaratBottomBg.png"
+		},
+		{
+			"name": "chipArrow_png",
+			"type": "image",
+			"url": "baccarat/chipArrow.png"
+		},
+		{
+			"name": "roomNormalBg_png",
+			"type": "image",
+			"url": "common/top/roomNormalBg.png"
+		},
+		{
+			"name": "roomPressBg_png",
+			"type": "image",
+			"url": "common/top/roomPressBg.png"
+		},
+		{
+			"name": "unionChip1_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionChip/unionChip1.png"
+		},
+		{
+			"name": "unionChip2_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionChip/unionChip2.png"
+		},
+		{
+			"name": "unionChip3_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionChip/unionChip3.png"
+		},
+		{
+			"name": "unionChip4_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionChip/unionChip4.png"
+		},
+		{
+			"name": "unionChip5_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionChip/unionChip5.png"
+		},
+		{
+			"name": "unionBaccaratBottom_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottom.png"
+		},
+		{
+			"name": "unionBaccaratHead_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratHead.png"
+		},
+		{
+			"name": "unionBaccaratBottomLine_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottomLine.png"
+		},
+		{
+			"name": "unionExitBtn_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottom/unionExitBtn.png"
+		},
+		{
+			"name": "unionSetBtn_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottom/unionSetBtn.png"
+		},
+		{
+			"name": "unionUserInfoBg_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottom/unionUserInfoBg.png"
+		},
+		{
+			"name": "cancelBtn_png",
+			"type": "image",
+			"url": "baccarat/cancelBtn.png"
+		},
+		{
+			"name": "comfirmBtn_png",
+			"type": "image",
+			"url": "baccarat/comfirmBtn.png"
+		},
+		{
+			"name": "rebetBtn_png",
+			"type": "image",
+			"url": "baccarat/rebetBtn.png"
+		},
+		{
+			"name": "chipAddPressed_png",
+			"type": "image",
+			"url": "baccarat/betChip/chipAddPressed.png"
+		},
+		{
+			"name": "topInfoPressed_png",
+			"type": "image",
+			"url": "common/top/topInfoPressed.png"
+		},
+		{
+			"name": "topSetPressed_png",
+			"type": "image",
+			"url": "common/top/topSetPressed.png"
+		},
+		{
+			"name": "topSwitchVideoPressed_png",
+			"type": "image",
+			"url": "common/top/topSwitchVideoPressed.png"
+		},
+		{
+			"name": "topTipsPressed_png",
+			"type": "image",
+			"url": "common/top/topTipsPressed.png"
+		},
+		{
+			"name": "topVideoRefreshPressed_png",
+			"type": "image",
+			"url": "common/top/topVideoRefreshPressed.png"
+		},
+		{
+			"name": "videoFristImg_png",
+			"type": "image",
+			"url": "baccarat/videoFristImg.png"
+		},
+		{
+			"name": "betInfo1_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo1.png"
+		},
+		{
+			"name": "betInfo2_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo2.png"
+		},
+		{
+			"name": "betInfo3_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo3.png"
+		},
+		{
+			"name": "betInfo4_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo4.png"
+		},
+		{
+			"name": "betInfo5_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo5.png"
+		},
+		{
+			"name": "betInfo6_png",
+			"type": "image",
+			"url": "baccarat/betInfo/betInfo6.png"
+		},
+		{
+			"name": "unionChipSet_png",
+			"type": "image",
+			"url": "baccarat/unionBaccarat/unionBaccaratBottom/unionChipSet.png"
+		},
+		{
+			"name": "hallBg_png",
+			"type": "image",
+			"url": "hallScene/hallBg.png"
+		},
+		{
+			"name": "backBtn_png",
+			"type": "image",
+			"url": "hallScene/bottom/backBtn.png"
+		},
+		{
+			"name": "baccaratEnterBtn_png",
+			"type": "image",
+			"url": "hallScene/selectGame/button/baccaratEnterBtn.png"
+		},
+		{
+			"name": "dtEnterBtn_png",
+			"type": "image",
+			"url": "hallScene/selectGame/button/dtEnterBtn.png"
+		},
+		{
+			"name": "fantanEnterBtn_png",
+			"type": "image",
+			"url": "hallScene/selectGame/button/fantanEnterBtn.png"
+		},
+		{
+			"name": "rouletteEnterBtn_png",
+			"type": "image",
+			"url": "hallScene/selectGame/button/rouletteEnterBtn.png"
+		},
+		{
+			"name": "sicboEnterBtn_png",
+			"type": "image",
+			"url": "hallScene/selectGame/button/sicboEnterBtn.png"
+		},
+		{
+			"name": "soundsOn_png",
+			"type": "image",
+			"url": "common/sound/soundsOn.png"
+		},
+		{
+			"name": "soundsOff_png",
+			"type": "image",
+			"url": "common/sound/soundsOff.png"
+		},
+		{
+			"name": "card_1_1_png",
+			"type": "image",
+			"url": "poker/card_1_1.png"
+		},
+		{
+			"name": "card_1_2_png",
+			"type": "image",
+			"url": "poker/card_1_2.png"
+		},
+		{
+			"name": "card_1_3_png",
+			"type": "image",
+			"url": "poker/card_1_3.png"
+		},
+		{
+			"name": "card_1_4_png",
+			"type": "image",
+			"url": "poker/card_1_4.png"
+		},
+		{
+			"name": "card_1_5_png",
+			"type": "image",
+			"url": "poker/card_1_5.png"
+		},
+		{
+			"name": "card_1_6_png",
+			"type": "image",
+			"url": "poker/card_1_6.png"
+		},
+		{
+			"name": "card_1_7_png",
+			"type": "image",
+			"url": "poker/card_1_7.png"
+		},
+		{
+			"name": "card_1_8_png",
+			"type": "image",
+			"url": "poker/card_1_8.png"
+		},
+		{
+			"name": "card_1_9_png",
+			"type": "image",
+			"url": "poker/card_1_9.png"
+		},
+		{
+			"name": "card_1_10_png",
+			"type": "image",
+			"url": "poker/card_1_10.png"
+		},
+		{
+			"name": "card_1_11_png",
+			"type": "image",
+			"url": "poker/card_1_11.png"
+		},
+		{
+			"name": "card_1_12_png",
+			"type": "image",
+			"url": "poker/card_1_12.png"
+		},
+		{
+			"name": "card_1_13_png",
+			"type": "image",
+			"url": "poker/card_1_13.png"
+		},
+		{
+			"name": "card_2_1_png",
+			"type": "image",
+			"url": "poker/card_2_1.png"
+		},
+		{
+			"name": "card_2_2_png",
+			"type": "image",
+			"url": "poker/card_2_2.png"
+		},
+		{
+			"name": "card_2_3_png",
+			"type": "image",
+			"url": "poker/card_2_3.png"
+		},
+		{
+			"name": "card_2_4_png",
+			"type": "image",
+			"url": "poker/card_2_4.png"
+		},
+		{
+			"name": "card_2_5_png",
+			"type": "image",
+			"url": "poker/card_2_5.png"
+		},
+		{
+			"name": "card_2_6_png",
+			"type": "image",
+			"url": "poker/card_2_6.png"
+		},
+		{
+			"name": "card_2_7_png",
+			"type": "image",
+			"url": "poker/card_2_7.png"
+		},
+		{
+			"name": "card_2_8_png",
+			"type": "image",
+			"url": "poker/card_2_8.png"
+		},
+		{
+			"name": "card_2_9_png",
+			"type": "image",
+			"url": "poker/card_2_9.png"
+		},
+		{
+			"name": "card_2_10_png",
+			"type": "image",
+			"url": "poker/card_2_10.png"
+		},
+		{
+			"name": "card_2_11_png",
+			"type": "image",
+			"url": "poker/card_2_11.png"
+		},
+		{
+			"name": "card_2_12_png",
+			"type": "image",
+			"url": "poker/card_2_12.png"
+		},
+		{
+			"name": "card_2_13_png",
+			"type": "image",
+			"url": "poker/card_2_13.png"
+		},
+		{
+			"name": "card_3_1_png",
+			"type": "image",
+			"url": "poker/card_3_1.png"
+		},
+		{
+			"name": "card_3_2_png",
+			"type": "image",
+			"url": "poker/card_3_2.png"
+		},
+		{
+			"name": "card_3_3_png",
+			"type": "image",
+			"url": "poker/card_3_3.png"
+		},
+		{
+			"name": "card_3_4_png",
+			"type": "image",
+			"url": "poker/card_3_4.png"
+		},
+		{
+			"name": "card_3_5_png",
+			"type": "image",
+			"url": "poker/card_3_5.png"
+		},
+		{
+			"name": "card_3_6_png",
+			"type": "image",
+			"url": "poker/card_3_6.png"
+		},
+		{
+			"name": "card_3_7_png",
+			"type": "image",
+			"url": "poker/card_3_7.png"
+		},
+		{
+			"name": "card_3_8_png",
+			"type": "image",
+			"url": "poker/card_3_8.png"
+		},
+		{
+			"name": "card_3_9_png",
+			"type": "image",
+			"url": "poker/card_3_9.png"
+		},
+		{
+			"name": "card_3_10_png",
+			"type": "image",
+			"url": "poker/card_3_10.png"
+		},
+		{
+			"name": "card_3_11_png",
+			"type": "image",
+			"url": "poker/card_3_11.png"
+		},
+		{
+			"name": "card_3_12_png",
+			"type": "image",
+			"url": "poker/card_3_12.png"
+		},
+		{
+			"name": "card_3_13_png",
+			"type": "image",
+			"url": "poker/card_3_13.png"
+		},
+		{
+			"name": "card_4_1_png",
+			"type": "image",
+			"url": "poker/card_4_1.png"
+		},
+		{
+			"name": "card_4_2_png",
+			"type": "image",
+			"url": "poker/card_4_2.png"
+		},
+		{
+			"name": "card_4_3_png",
+			"type": "image",
+			"url": "poker/card_4_3.png"
+		},
+		{
+			"name": "card_4_4_png",
+			"type": "image",
+			"url": "poker/card_4_4.png"
+		},
+		{
+			"name": "card_4_5_png",
+			"type": "image",
+			"url": "poker/card_4_5.png"
+		},
+		{
+			"name": "card_4_6_png",
+			"type": "image",
+			"url": "poker/card_4_6.png"
+		},
+		{
+			"name": "card_4_7_png",
+			"type": "image",
+			"url": "poker/card_4_7.png"
+		},
+		{
+			"name": "card_4_8_png",
+			"type": "image",
+			"url": "poker/card_4_8.png"
+		},
+		{
+			"name": "card_4_9_png",
+			"type": "image",
+			"url": "poker/card_4_9.png"
+		},
+		{
+			"name": "card_4_10_png",
+			"type": "image",
+			"url": "poker/card_4_10.png"
+		},
+		{
+			"name": "card_4_11_png",
+			"type": "image",
+			"url": "poker/card_4_11.png"
+		},
+		{
+			"name": "card_4_12_png",
+			"type": "image",
+			"url": "poker/card_4_12.png"
+		},
+		{
+			"name": "card_4_13_png",
+			"type": "image",
+			"url": "poker/card_4_13.png"
+		},
+		{
+			"name": "card_bg_png",
+			"type": "image",
+			"url": "poker/card_bg.png"
+		},
+		{
+			"name": "Bead_A_png",
+			"type": "image",
+			"url": "road/Bead_A.png"
+		},
+		{
+			"name": "Bead_B_png",
+			"type": "image",
+			"url": "road/Bead_B.png"
+		},
+		{
+			"name": "Bead_C_png",
+			"type": "image",
+			"url": "road/Bead_C.png"
+		},
+		{
+			"name": "Bead_D_png",
+			"type": "image",
+			"url": "road/Bead_D.png"
+		},
+		{
+			"name": "Bead_E_png",
+			"type": "image",
+			"url": "road/Bead_E.png"
+		},
+		{
+			"name": "Bead_F_png",
+			"type": "image",
+			"url": "road/Bead_F.png"
+		},
+		{
+			"name": "Bead_G_png",
+			"type": "image",
+			"url": "road/Bead_G.png"
+		},
+		{
+			"name": "Bead_H_png",
+			"type": "image",
+			"url": "road/Bead_H.png"
+		},
+		{
+			"name": "Bead_I_png",
+			"type": "image",
+			"url": "road/Bead_I.png"
+		},
+		{
+			"name": "Bead_J_png",
+			"type": "image",
+			"url": "road/Bead_J.png"
+		},
+		{
+			"name": "Bead_K_png",
+			"type": "image",
+			"url": "road/Bead_K.png"
+		},
+		{
+			"name": "Bead_L_png",
+			"type": "image",
+			"url": "road/Bead_L.png"
+		},
+		{
+			"name": "BigRoad_A_png",
+			"type": "image",
+			"url": "road/BigRoad_A.png"
+		},
+		{
+			"name": "BigRoad_B_png",
+			"type": "image",
+			"url": "road/BigRoad_B.png"
+		},
+		{
+			"name": "BigRoad_C_png",
+			"type": "image",
+			"url": "road/BigRoad_C.png"
+		},
+		{
+			"name": "BigRoad_D_png",
+			"type": "image",
+			"url": "road/BigRoad_D.png"
+		},
+		{
+			"name": "BigRoad_E_png",
+			"type": "image",
+			"url": "road/BigRoad_E.png"
+		},
+		{
+			"name": "BigRoad_F_png",
+			"type": "image",
+			"url": "road/BigRoad_F.png"
+		},
+		{
+			"name": "BigRoad_G_png",
+			"type": "image",
+			"url": "road/BigRoad_G.png"
+		},
+		{
+			"name": "BigRoad_H_png",
+			"type": "image",
+			"url": "road/BigRoad_H.png"
+		},
+		{
+			"name": "Cockcroach_A_png",
+			"type": "image",
+			"url": "road/Cockcroach_A.png"
+		},
+		{
+			"name": "Cockcroach_E_png",
+			"type": "image",
+			"url": "road/Cockcroach_E.png"
+		},
+		{
+			"name": "askRoadBankerBg_png",
+			"type": "image",
+			"url": "road/askRoadBankerBg.png"
+		},
+		{
+			"name": "askRoadPlayerBg_png",
+			"type": "image",
+			"url": "road/askRoadPlayerBg.png"
+		}
+	]
+}

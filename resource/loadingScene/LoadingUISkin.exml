@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingUISkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="logo_png" y="178" horizontalCenter="0"/>
+	<e:Image id="loading_black" source="preloadBg_png" y="348" x="314"/>
+	<e:Image id="loading_red" source="preloadFill_png" x="315" y="350" width="4"/>
+	<e:Label id="label_progress" text="0%" y="442" textColor="0xd47134" textAlign="center" width="124" horizontalCenter="0"/>
+</e:Skin>

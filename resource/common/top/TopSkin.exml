@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopSkin" width="1136" height="58" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15c3d5cf712"/>
+    <e:Rect fillColor="0x231a00" x="119" width="450" height="58" alpha="0.7"/>
+    <e:Image id="roomBtn" source="topRoom_png" x="20"/>
+
+    <e:Image source="topUserName_png" x="150" verticalCenter="0"/>
+    <e:Label id="userNameLabel" text="loading..." x="190" verticalCenter="0" textColor="0xf6d77f" width="150" size="30" textAlign="left"/>
+
+    <e:Image source="topBalance_png" x="340"  verticalCenter="0"/>
+    <e:Label id="balanceNumLabel" text="loading..." x="380" verticalCenter="0" width="200" textColor="0xf6d77f" size="30" textAlign="left"/>
+
+    <e:Group x="568" height="58">
+        <e:Rect fillColor="0x000000" width="450" height="58"/>
+        <e:Image id="topInfoBtn" x="50" verticalCenter="0" source="topInfo_png"/>
+        <e:Image id="image_change_video" x="120" verticalCenter="0" source="topSwitchVideo_png"/>
+        <e:Image id="topVideoRefreshBtn" x="180" verticalCenter="0" source="topVideoRefresh_png"/>
+        <e:Image id="topTips" x="270" verticalCenter="0" source="topTips_png"/>
+        
+        <e:Image id="topSetBtn" x="350" verticalCenter="0" source="topSet_png"/>
+        
+        
+    </e:Group>
+    
+    <e:Image id="exitBtn" x="1000" verticalCenter="0" source="topExit_png"/>
+    
+    
+    
+</e:Skin>

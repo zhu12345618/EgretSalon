@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallSceneSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+    <e:Image source="hallBg_png" left="0" right="0" top="0" bottom="0" />
+	<ns1:Top id="hallTopScene" skinName="TopSkin" />
+    <ns1:SelectGameScene id="selectGameScene" skinName="SelectGameSceneSkin"/>
+</e:Skin>
